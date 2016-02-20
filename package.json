@@ -1,0 +1,26 @@
+{
+  "name": "react-intl-gettext",
+  "version": "0.0.1",
+  "description": "Convert babel react-intl plugin output to gettext .pot file and back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "i18n",
+    "gettext",
+    "react-intl",
+    "convert"
+  ],
+  "author": "Roman Salnikov",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.5.8",
+    "pofile": "^1.0.2",
+    "recursive-readdir": "^1.2.1"
+  },
+  "bin": {
+    "intl2pot": "intl2pot.js"
+  }
+}
